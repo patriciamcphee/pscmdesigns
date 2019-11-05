@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>My form - Formoid contact form</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="blurBg-false" style="background-color:#EBEBEB">
+
+	<section id="contact" class="module">
+		<div class="container">
+
+			<div class="module-header">
+				<h2 class="module-title">Contact
+					<span>Contact</span>
+				</h2>
+				<div class="module-line"></div>
+			</div>
+
+
+			<div class="row">
+
+				<div class="col-sm-6 col-sm-offset-3">
+
+					<form id="contact-form" action="#">
+						<div class="ajax-hidden">
+							<div class="form-group wow fadeInUp">
+								<label class="sr-only" for="c_name">Name</label>
+								<input type="text" id="c_name" class="form-control" name="c_name" placeholder="Name" required>
+							</div>
+
+							<div class="form-group wow fadeInUp" data-wow-delay=".1s">
+								<label class="sr-only" for="c_email">Email address</label>
+								<input type="email" id="c_email" class="form-control" name="c_email" placeholder="E-mail" required>
+							</div>
+
+							<div class="form-group wow fadeInUp" data-wow-delay=".2s">
+								<textarea class="form-control" id="c_message" name="c_message" rows="7" placeholder="Your message" required></textarea>
+							</div>
+
+							<button type="submit" class="btn btn-block btn-custom-2 wow fadeInUp" data-wow-delay=".3s">Send Message
+							</button>
+						</div>
+						<div class="ajax-response"></div>
+					</form>
+
+
+
+<!-- Start Formoid form-->
+<link rel="stylesheet" href="my-form_files/formoid1/formoid-solid-dark.css" type="text/css" />
+<script type="text/javascript" src="my-form_files/formoid1/jquery.min.js"></script>
+<form class="formoid-solid-dark" style="background-color:#FFFFFF;font-size:14px;font-family:'Roboto',Arial,Helvetica,sans-serif;color:#34495E;max-width:480px;min-width:150px" method="post"><div class="title"><h2>My form</h2></div>
+	<div class="element-name"><label class="title"></label><span class="nameFirst"><input placeholder="Name First" type="text" size="8" name="name[first]" /><span class="icon-place"></span></span><span class="nameLast"><input placeholder="Name Last" type="text" size="14" name="name[last]" /><span class="icon-place"></span></span></div>
+	<div class="element-email"><label class="title"></label><div class="item-cont"><input class="large" type="email" name="email" value="" placeholder="Email"/><span class="icon-place"></span></div></div>
+	<div class="element-phone"><label class="title"></label><div class="item-cont"><input class="large" type="tel" pattern="[+]?[\.\s\-\(\)\*\#0-9]{3,}" maxlength="24" name="phone" placeholder="Phone" value=""/><span class="icon-place"></span></div></div>
+	<div class="element-textarea"><label class="title"></label><div class="item-cont"><textarea class="medium" name="textarea" cols="20" rows="5" placeholder="Text Area"></textarea><span class="icon-place"></span></div></div>
+<div class="submit"><input type="submit" value="Submit"/></div></form><p class="frmd"><a href="http://formoid.com/v29.php">contact form</a> Formoid.com 2.9</p><script type="text/javascript" src="my-form_files/formoid1/formoid-solid-dark.js"></script>
+<!-- Stop Formoid form-->
+
+</div>
+
+</div><!-- .row -->
+</div><!-- .container -->
+</section>
+
+</body>
+</html>
